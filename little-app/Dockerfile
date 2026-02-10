@@ -5,7 +5,7 @@ FROM python:3.12-slim
 WORKDIR /app
 
 # Copy the application file (app.py) into the working directory
-COPY app.py .
+COPY /app/app.py .
 
 # Define the default command to run the application
 CMD ["python", "app.py"]
